@@ -1,4 +1,23 @@
 .Home {
   height: 2700px;
   width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 570px 660px 390px;
+  grid-template-columns: 50% 50%;
+}
+
+.theBlob {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  height: 98vh;
+}
+
+.Hello {
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+  margin: auto;
+  font-size: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
