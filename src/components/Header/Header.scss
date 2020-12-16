@@ -1,0 +1,12 @@
+header {
+  position: fixed;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  img {
+    margin: auto 60px;
+  }
+}
